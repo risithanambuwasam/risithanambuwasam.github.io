@@ -14,8 +14,8 @@
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-      background-color: #f9f9f9; /* Light gray background */
-      color: #333; /* Dark text */
+      background-color: #f9f9f9;
+      color: #333;
       line-height: 1.6;
       margin: 0;
       padding: 0;
@@ -66,6 +66,7 @@
       line-height: 1.6;
     }
 
+    /* Footer Section */
     footer {
       background-color: #ffffff;
       color: #555;
@@ -75,12 +76,15 @@
       position: relative;
       bottom: 0;
       width: 100%;
+      font-size: 1em;
     }
 
     footer a {
       text-decoration: none;
-      color: #007aff;
+      color: inherit;
+      font-size: inherit;
       font-weight: normal;
+      margin: 0 10px;
     }
 
     footer a:hover {
@@ -104,20 +108,27 @@
       .content p {
         font-size: 0.9em;
       }
+
+      footer {
+        font-size: 0.9em;
+      }
     }
   </style>
 </head>
 <body>
-  <!-- Header Section -->
-  
-
   <!-- Content Section -->
   <div class="content">
     <h2>Hello!</h2>
-    <p>My name is Risitha Nambuwasam, and I am a graduate student majoring in Mathematics.
-    <p>My  research interests lie in the fields of Numerical Analysis and Scientific Computation, where I explore the application of mathematical algorithms to real-world problems using computational methods.</p>
+    <p>My name is Risitha Nambuwasam, and I am a graduate student majoring in Mathematics.</p>
+    <p>My research interests lie in the fields of Numerical Analysis and Scientific Computation, where I explore the application of mathematical algorithms to real-world problems using computational methods.</p>
   </div>
 
-
+  <!-- Footer Section -->
+  <footer>
+    <p>
+      <a href="https://scholar.google.com/citations?user=28Y32P0AAAAJ&hl=en" target="_blank">Google Scholar</a> |
+      <a href="https://github.com/risithanambuwasam" target="_blank">GitHub</a>
+    </p>
+  </footer>
 </body>
 </html>
