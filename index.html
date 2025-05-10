@@ -21,27 +21,6 @@
       padding: 0;
     }
 
-    /* Header Section */
-    header {
-      background-color: #ffffff;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      padding: 50px 20px;
-      text-align: center;
-      font-size: 1.2em;
-      color: #333;
-    }
-
-    header h1 {
-      font-size: 2em;
-      color: #333;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 1em;
-      color: #555;
-    }
-
     /* Content Section */
     .content {
       max-width: 900px;
@@ -66,37 +45,23 @@
       line-height: 1.6;
     }
 
-    /* Footer Section */
-    footer {
-      background-color: #ffffff;
-      color: #555;
-      text-align: center;
-      padding: 20px 0;
-      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-      position: relative;
-      bottom: 0;
-      width: 100%;
+    .links {
       font-size: 1em;
+      color: #555;
     }
 
-    footer a {
+    .links a {
       text-decoration: none;
       color: inherit;
-      font-size: inherit;
-      font-weight: normal;
       margin: 0 10px;
     }
 
-    footer a:hover {
+    .links a:hover {
       text-decoration: underline;
     }
 
     /* Responsive Design */
     @media (max-width: 768px) {
-      header {
-        padding: 40px 20px;
-      }
-
       .content {
         padding: 20px;
       }
@@ -105,11 +70,7 @@
         font-size: 1.3em;
       }
 
-      .content p {
-        font-size: 0.9em;
-      }
-
-      footer {
+      .content p, .links {
         font-size: 0.9em;
       }
     }
@@ -121,14 +82,11 @@
     <h2>Hello!</h2>
     <p>My name is Risitha Nambuwasam, and I am a graduate student majoring in Mathematics.</p>
     <p>My research interests lie in the fields of Numerical Analysis and Scientific Computation, where I explore the application of mathematical algorithms to real-world problems using computational methods.</p>
-  </div>
-
-  <!-- Footer Section -->
-  <footer>
-    <p>
-      <a href="https://scholar.google.com/citations?user=28Y32P0AAAAJ&hl=en" target="_blank">Google Scholar</a> |
+    
+    <div class="links">
+      <a href="https://scholar.google.com/citations?user=28Y32P0AAAAJ&hl=en" target="_blank">Google Scholar</a>
       <a href="https://github.com/risithanambuwasam" target="_blank">GitHub</a>
-    </p>
-  </footer>
+    </div>
+  </div>
 </body>
 </html>
