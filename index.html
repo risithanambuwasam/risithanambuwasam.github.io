@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Risitha Nambuwasam</title>
   <style>
     /* Basic Reset */
@@ -30,6 +30,16 @@
       box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
       padding: 30px;
       text-align: center;
+    }
+
+    /* Profile Photo Styling */
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
 
     .content h2 {
@@ -70,7 +80,8 @@
         font-size: 1.3em;
       }
 
-      .content p, .links {
+      .content p,
+      .links {
         font-size: 0.9em;
       }
     }
@@ -79,15 +90,18 @@
 <body>
   <!-- Content Section -->
   <div class="content">
+    <!-- Profile Photo -->
+    <img src="photo.jpg" alt="Risitha Nambuwasam" class="profile-photo" />
+
     <h2>Hello!</h2>
     <p>My name is Risitha Nambuwasam, and I am a graduate student majoring in Mathematics.</p>
     <p>My research interests lie in the fields of Numerical Analysis and Scientific Computation, where I explore the application of mathematical algorithms to real-world problems using computational methods.</p>
     
- <div class="links">
-  <a href="https://scholar.google.com/citations?user=28Y32P0AAAAJ&hl=en" target="_blank">Google Scholar</a>
-  <a href="https://github.com/risithanambuwasam" target="_blank">GitHub</a>
-  <a href="https://math.stackexchange.com/users/1654119/risitha" target="_blank">Stack Exchange</a>
-</div>
+    <div class="links">
+      <a href="https://scholar.google.com/citations?user=28Y32P0AAAAJ&hl=en" target="_blank">Google Scholar</a>
+      <a href="https://github.com/risithanambuwasam" target="_blank">GitHub</a>
+      <a href="https://math.stackexchange.com/users/1654119/risitha" target="_blank">Stack Exchange</a>
+    </div>
   </div>
 </body>
 </html>
